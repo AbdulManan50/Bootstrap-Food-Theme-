@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@100..900&display=swap");
+
+.paragraph {
+  font-size: 14px;
+  font-family: "Outfit";
+  color: black;
+}
+
+.heading {
+  font-family: "Cormorant Infantf";
+  color: black;
+  font-size: 44px;
+}
+
+.subheading {
+  font-size: 15px;
+  font-family: "Outfit";
+  color: black;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.navfont {
+  font-size: 14px;
+  font-family: "Outfit";
+  gap: 20px;
+  text-transform: capitalize;
+  color: black;
+  padding: 0px;
+}
+.navfont > li > a {
+  color: black;
+}
+
+.logo {
+  font-size: 52px;
+  font-family: "Cormorant Infantf";
+  color: black;
+}
+.button {
+  padding: 10px 20px;
+  border: 1px solid black;
+  font-family: "Outfit";
+  background-color: transparent;
+  border-radius: 2px;
+}
+.submeanu {
+  background-color: black;
+}
+
+.textdetailes {
+  color: white;
+  font-family: "Outfit";
+  font-size: 14px;
+}
+
+/* Banner section */
+
+.bannerimg {
+  background-image: url(/Images/banner.png);
+  height:85vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bannerp {
+  font-family: "Outfit";
+}
+.bannerh1 {
+  font-family: "Cormorant Infantf";
+  font-size: 64px;
+}
+.button1 {
+  padding: 10px 20px;
+  font-family: "Outfit";
+  background-color: white;
+  border: none;
+  border-radius: 2px;
+}
+
+.productsbg {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.productsheading {
+  font-size: 22px;
+  font-family: "Outfit";
+  color: black;
+  font-weight: 700;
+}
+.products-sub-heading {
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: line-through;
+}
+
+.border-products {
+  border: 2px solid #f5f5f5;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.products-icon {
+  padding: 10px 15px;
+}
+
+/* slider  */
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
+}
+
+.custom-swiper-button-next,
+.custom-swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-45%);
+  border: 1px solid black;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 100%;
+  cursor: pointer;
+  z-index: 99;
+}
+
+.custom-swiper-button-next {
+  right: -30px;
+}
+
+.custom-swiper-button-prev {
+  left: -30px;
+}
+
+.margin {
+  margin-bottom: 100px;
+}
+
+.cetagory {
+  background-image: url(/Images/bgcetagory.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cetagory-weight {
+  font-weight: 500;
+}
+.cetagoryicon-right {
+  right: 50px;
+}
+.cetagoryicon-left {
+  left: 50px;
+}
+
+.img-cetagory {
+  width: 100%;
+}
+
+.tradition {
+  font-size: 15px;
+  line-height: 28px;
+  word-spacing: 4px;
+  font-family: "Outfit";
+  letter-spacing: 1px;
+  width: 70%;
+}
+.tradition-img {
+  width: 60%;
+}
+.tradition-left {
+  width: 92%;
+}
+.tabbutton {
+  padding: 10px 20px;
+  font-family: "Outfit";
+  color: black;
+  text-transform: capitalize;
+  border: 1px solid black;
+  border-radius: 0px !important;
+}
+.tabbutton:hover {
+  color: black;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: black;
+  color: white;
+  font-family: "Outfit";
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 0px !important;
+}
+
+.bg-rice {
+  background-image: url(/Images/bgcetagory.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 60px 0px;
+}
+.ricebutton {
+  padding: 10px 30px;
+  background-color: black;
+  color: white;
+  font-family: "Outfit";
+  border: none;
+}
+.short-image-rice {
+  width: 20%;
+}
+
+.secondlast-right {
+  right: 40px;
+  top: -30px;
+}
+.secondlast-left {
+  left: 91%;
+  top: -30px;
+}
+.footerlogo {
+  font-size: 52px;
+  font-family: "Cormorant Infantf";
+  color: white;
+}
+.bg-footer {
+  background-image: url(/Images/Footerbg.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 60px 0px 10px 0px;
+}
+.footerfont {
+  font-family: "Outfit";
+  color: white;
+}
+.footerfont > li > a {
+  color: white;
+}
+.pfooter {
+  font-size: 14px;
+  font-family: "Outfit";
+  color: white;
+}
+.foterfb {
+  border: 1px solid #f5f5f5;
+  padding: 10px 18px;
+  color: white;
+  border-radius: 100px;
+}
+.foterinsta {
+  border: 1px solid #f5f5f5;
+  padding: 10px 16px;
+  color: white;
+  border-radius: 100px;
+}
+.secondlast-section-right{
+  padding-left: 100px;
+}
